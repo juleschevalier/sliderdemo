@@ -1,0 +1,4283 @@
+{
+    "bufferSize": 10000,
+    "file": "univ-bench",
+    "fragment": "rdfs",
+    "runs": [
+        {
+            "inferred": 1,
+            "rule": "SCM_SPO",
+            "runs": 2
+        },
+        {
+            "inferred": 21,
+            "rule": "SCM_SCO",
+            "runs": 3
+        },
+        {
+            "rule": "PRP_SPO1",
+            "runs": 1
+        },
+        {
+            "rule": "PRP_DOM",
+            "runs": 1
+        },
+        {
+            "rule": "PRP_RNG",
+            "runs": 2
+        },
+        {
+            "inferred": 7,
+            "rule": "SCM_DOM1",
+            "runs": 2
+        },
+        {
+            "inferred": 11,
+            "rule": "SCM_RNG1",
+            "runs": 2
+        },
+        {
+            "inferred": 0,
+            "rule": "SCM_DOM2",
+            "runs": 2
+        },
+        {
+            "inferred": 0,
+            "rule": "SCM_RNG2",
+            "runs": 2
+        },
+        {
+            "rule": "CAX_SCO",
+            "runs": 2
+        }
+    ],
+    "screenshots": [
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 0,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 2,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 4,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 2,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 2,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 2,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 6,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 12,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 21,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 21,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 21,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 21,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 29,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 29,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 29,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 15,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 29,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 7,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 37,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 37,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 37,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 7,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 7,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 19,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 37,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 10,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 46,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 46,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 46,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 10,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 10,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 25,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 46,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 55,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 55,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 55,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 28,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 55,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 64,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 64,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 64,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 31,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 64,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 72,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 72,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 72,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 33,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 72,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 13,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 81,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 81,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 81,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 13,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 13,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 37,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 81,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 16,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 89,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 89,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 89,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 16,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 16,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 42,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 89,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 18,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 98,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 98,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 98,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 18,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 18,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 47,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 98,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 21,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 106,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 106,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 106,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 21,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 21,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 52,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 107,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 24,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 115,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 115,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 115,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 24,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 24,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 57,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 115,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 26,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 124,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 124,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 124,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 26,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 26,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 63,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 124,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 28,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 133,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 133,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 133,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 28,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 28,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 68,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 133,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 30,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 141,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 141,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 141,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 30,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 30,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 72,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 141,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 30,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 149,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 149,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 149,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 30,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 30,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 74,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 149,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 31,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 158,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 158,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 158,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 31,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 31,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 77,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 158,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 33,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 167,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 167,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 167,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 33,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 33,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 81,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 167,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 35,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 175,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 175,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 175,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 35,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 35,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 86,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 175,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 36,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 184,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 184,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 184,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 37,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 37,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 1,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 1,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 90,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 184,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 36,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 193,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 193,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 193,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 40,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 39,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 4,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 3,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 92,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 193,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 36,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 202,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 202,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 202,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 42,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 41,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 6,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 94,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 202,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 1,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 36,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 210,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 210,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 210,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 44,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 42,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 9,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 7,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 96,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 210,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 2,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 36,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 218,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 218,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 218,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 45,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 43,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 11,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 9,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 98,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 219,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 3,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 36,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 227,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 227,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 227,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 47,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 45,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 14,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 100,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 227,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 3,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 36,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 236,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 236,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 236,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 47,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 45,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 14,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 104,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 236,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 3,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 36,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 245,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 245,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 245,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 50,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 47,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 17,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 14,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 106,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 245,
+            "lastRun": [],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 3,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 36,
+                    "rule": "SCM_SCO",
+                    "runs": 0,
+                    "tic": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 254,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 254,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 254,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 51,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 48,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 18,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 15,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 109,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 254,
+            "lastRun": [],
+            "runningRules": 1,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 3,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 262,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 262,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 262,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 54,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 50,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 21,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 17,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 111,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 0,
+            "currentInput": 262,
+            "lastRun": [
+                "SCM_SCO"
+            ],
+            "runningRules": 1,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 3,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 15,
+                    "occupation": 15,
+                    "rule": "SCM_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 284,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 284,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 284,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 70,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 66,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 22,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 18,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 129,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 15,
+            "currentInput": 270,
+            "lastRun": [
+                "SCM_SCO"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 3,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 15,
+                    "occupation": 15,
+                    "rule": "SCM_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 293,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 293,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 293,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 72,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 68,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 24,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 20,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 131,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 15,
+            "currentInput": 278,
+            "lastRun": [
+                "SCM_SCO"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 3,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 15,
+                    "occupation": 15,
+                    "rule": "SCM_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 302,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 302,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 302,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 75,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 68,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 27,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 20,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 134,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 15,
+            "currentInput": 287,
+            "lastRun": [
+                "SCM_SCO"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 15,
+                    "occupation": 15,
+                    "rule": "SCM_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 76,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 69,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 30,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 23,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 135,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 15,
+            "currentInput": 293,
+            "lastRun": [
+                "SCM_SCO"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 15,
+                    "occupation": 15,
+                    "rule": "SCM_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 76,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 69,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 30,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 23,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 135,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 15,
+            "currentInput": 293,
+            "lastRun": [
+                "SCM_SCO"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 15,
+                    "occupation": 15,
+                    "rule": "SCM_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 76,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 69,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 30,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 23,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 135,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 15,
+            "currentInput": 293,
+            "lastRun": [
+                "SCM_SCO"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 15,
+                    "occupation": 15,
+                    "rule": "SCM_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 76,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 69,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 30,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 23,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 135,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 15,
+            "currentInput": 293,
+            "lastRun": [
+                "SCM_SCO"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 15,
+                    "occupation": 15,
+                    "rule": "SCM_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 76,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 69,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 30,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 23,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 135,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 15,
+            "currentInput": 293,
+            "lastRun": [
+                "SCM_SCO"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 0,
+                    "occupation": 5,
+                    "rule": "SCM_SPO",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 15,
+                    "occupation": 15,
+                    "rule": "SCM_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 308,
+                    "rule": "PRP_RNG",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 76,
+                    "rule": "SCM_DOM1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 69,
+                    "rule": "SCM_RNG1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 30,
+                    "rule": "SCM_DOM2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 23,
+                    "rule": "SCM_RNG2",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 135,
+                    "rule": "CAX_SCO",
+                    "runs": 0,
+                    "timeouts": 0
+                }
+            ],
+            "currentInfered": 15,
+            "currentInput": 293,
+            "lastRun": [
+                "SCM_SCO"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 1,
+                    "occupation": 1,
+                    "rule": "SCM_SPO",
+                    "runs": 1,
+                    "tic": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 21,
+                    "occupation": 6,
+                    "rule": "SCM_SCO",
+                    "runs": 2,
+                    "tic": 1,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 25,
+                    "rule": "PRP_RNG",
+                    "runs": 1,
+                    "tic": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 7,
+                    "occupation": 13,
+                    "rule": "SCM_DOM1",
+                    "runs": 1,
+                    "tic": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 11,
+                    "occupation": 17,
+                    "rule": "SCM_RNG1",
+                    "runs": 1,
+                    "tic": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 8,
+                    "rule": "SCM_DOM2",
+                    "runs": 1,
+                    "tic": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_RNG2",
+                    "runs": 1,
+                    "tic": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 6,
+                    "rule": "CAX_SCO",
+                    "runs": 1,
+                    "tic": 1,
+                    "timeouts": 1
+                }
+            ],
+            "currentInfered": 40,
+            "currentInput": 293,
+            "lastRun": [
+                "CAX_SCO",
+                "SCM_RNG1",
+                "SCM_DOM2",
+                "SCM_RNG2",
+                "PRP_RNG"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 1,
+                    "occupation": 1,
+                    "rule": "SCM_SPO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 21,
+                    "occupation": 6,
+                    "rule": "SCM_SCO",
+                    "runs": 2,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 25,
+                    "rule": "PRP_RNG",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 7,
+                    "occupation": 13,
+                    "rule": "SCM_DOM1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 11,
+                    "occupation": 17,
+                    "rule": "SCM_RNG1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 8,
+                    "rule": "SCM_DOM2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_RNG2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 6,
+                    "rule": "CAX_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                }
+            ],
+            "currentInfered": 40,
+            "currentInput": 293,
+            "lastRun": [
+                "CAX_SCO",
+                "SCM_RNG1",
+                "SCM_DOM2",
+                "SCM_RNG2",
+                "PRP_RNG"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 1,
+                    "occupation": 1,
+                    "rule": "SCM_SPO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 21,
+                    "occupation": 6,
+                    "rule": "SCM_SCO",
+                    "runs": 2,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 25,
+                    "rule": "PRP_RNG",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 7,
+                    "occupation": 13,
+                    "rule": "SCM_DOM1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 11,
+                    "occupation": 17,
+                    "rule": "SCM_RNG1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 8,
+                    "rule": "SCM_DOM2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_RNG2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 6,
+                    "rule": "CAX_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                }
+            ],
+            "currentInfered": 40,
+            "currentInput": 293,
+            "lastRun": [
+                "CAX_SCO",
+                "SCM_RNG1",
+                "SCM_DOM2",
+                "SCM_RNG2",
+                "PRP_RNG"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 1,
+                    "occupation": 1,
+                    "rule": "SCM_SPO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 21,
+                    "occupation": 6,
+                    "rule": "SCM_SCO",
+                    "runs": 2,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 25,
+                    "rule": "PRP_RNG",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 7,
+                    "occupation": 13,
+                    "rule": "SCM_DOM1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 11,
+                    "occupation": 17,
+                    "rule": "SCM_RNG1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 8,
+                    "rule": "SCM_DOM2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_RNG2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 6,
+                    "rule": "CAX_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                }
+            ],
+            "currentInfered": 40,
+            "currentInput": 293,
+            "lastRun": [
+                "CAX_SCO",
+                "SCM_RNG1",
+                "SCM_DOM2",
+                "SCM_RNG2",
+                "PRP_RNG"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 1,
+                    "occupation": 1,
+                    "rule": "SCM_SPO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 21,
+                    "occupation": 6,
+                    "rule": "SCM_SCO",
+                    "runs": 2,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 25,
+                    "rule": "PRP_RNG",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 7,
+                    "occupation": 13,
+                    "rule": "SCM_DOM1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 11,
+                    "occupation": 17,
+                    "rule": "SCM_RNG1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 8,
+                    "rule": "SCM_DOM2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_RNG2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 6,
+                    "rule": "CAX_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                }
+            ],
+            "currentInfered": 40,
+            "currentInput": 293,
+            "lastRun": [
+                "CAX_SCO",
+                "SCM_RNG1",
+                "SCM_DOM2",
+                "SCM_RNG2",
+                "PRP_RNG"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 1,
+                    "occupation": 1,
+                    "rule": "SCM_SPO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 21,
+                    "occupation": 6,
+                    "rule": "SCM_SCO",
+                    "runs": 2,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 25,
+                    "rule": "PRP_RNG",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 7,
+                    "occupation": 13,
+                    "rule": "SCM_DOM1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 11,
+                    "occupation": 17,
+                    "rule": "SCM_RNG1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 8,
+                    "rule": "SCM_DOM2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_RNG2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 6,
+                    "rule": "CAX_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                }
+            ],
+            "currentInfered": 40,
+            "currentInput": 293,
+            "lastRun": [
+                "CAX_SCO",
+                "SCM_RNG1",
+                "SCM_DOM2",
+                "SCM_RNG2",
+                "PRP_RNG"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 1,
+                    "occupation": 1,
+                    "rule": "SCM_SPO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 21,
+                    "occupation": 6,
+                    "rule": "SCM_SCO",
+                    "runs": 2,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 25,
+                    "rule": "PRP_RNG",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 7,
+                    "occupation": 13,
+                    "rule": "SCM_DOM1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 11,
+                    "occupation": 17,
+                    "rule": "SCM_RNG1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 8,
+                    "rule": "SCM_DOM2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_RNG2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 6,
+                    "rule": "CAX_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                }
+            ],
+            "currentInfered": 40,
+            "currentInput": 293,
+            "lastRun": [
+                "CAX_SCO",
+                "SCM_RNG1",
+                "SCM_DOM2",
+                "SCM_RNG2",
+                "PRP_RNG"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 1,
+                    "occupation": 1,
+                    "rule": "SCM_SPO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 21,
+                    "occupation": 6,
+                    "rule": "SCM_SCO",
+                    "runs": 2,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 25,
+                    "rule": "PRP_RNG",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 7,
+                    "occupation": 13,
+                    "rule": "SCM_DOM1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 11,
+                    "occupation": 17,
+                    "rule": "SCM_RNG1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 8,
+                    "rule": "SCM_DOM2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_RNG2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 6,
+                    "rule": "CAX_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                }
+            ],
+            "currentInfered": 40,
+            "currentInput": 293,
+            "lastRun": [
+                "CAX_SCO",
+                "SCM_RNG1",
+                "SCM_DOM2",
+                "SCM_RNG2",
+                "PRP_RNG"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 1,
+                    "occupation": 1,
+                    "rule": "SCM_SPO",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 21,
+                    "occupation": 6,
+                    "rule": "SCM_SCO",
+                    "runs": 2,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "timeouts": 0
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 25,
+                    "rule": "PRP_RNG",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 7,
+                    "occupation": 13,
+                    "rule": "SCM_DOM1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 11,
+                    "occupation": 17,
+                    "rule": "SCM_RNG1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 8,
+                    "rule": "SCM_DOM2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 12,
+                    "rule": "SCM_RNG2",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 6,
+                    "rule": "CAX_SCO",
+                    "runs": 1,
+                    "timeouts": 1
+                }
+            ],
+            "currentInfered": 40,
+            "currentInput": 293,
+            "lastRun": [
+                "CAX_SCO",
+                "SCM_RNG1",
+                "SCM_DOM2",
+                "SCM_RNG2",
+                "PRP_RNG"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 1,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 2,
+                    "tic": 1,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 21,
+                    "occupation": 0,
+                    "rule": "SCM_SCO",
+                    "runs": 3,
+                    "tic": 1,
+                    "timeouts": 3
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_SPO1",
+                    "runs": 0,
+                    "tic": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 333,
+                    "rule": "PRP_DOM",
+                    "runs": 0,
+                    "tic": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "PRP_RNG",
+                    "runs": 2,
+                    "tic": 1,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 7,
+                    "occupation": 0,
+                    "rule": "SCM_DOM1",
+                    "runs": 2,
+                    "tic": 1,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 11,
+                    "occupation": 17,
+                    "rule": "SCM_RNG1",
+                    "runs": 1,
+                    "tic": 1,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 8,
+                    "rule": "SCM_DOM2",
+                    "runs": 1,
+                    "tic": 1,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 2,
+                    "tic": 1,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "CAX_SCO",
+                    "runs": 2,
+                    "tic": 1,
+                    "timeouts": 2
+                }
+            ],
+            "currentInfered": 40,
+            "currentInput": 293,
+            "lastRun": [
+                "CAX_SCO",
+                "SCM_SCO",
+                "SCM_DOM1",
+                "SCM_RNG2",
+                "PRP_RNG"
+            ],
+            "runningRules": 9,
+            "waitingRules": 1
+        },
+        {
+            "buffers": [
+                {
+                    "inferred": 1,
+                    "occupation": 0,
+                    "rule": "SCM_SPO",
+                    "runs": 2,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 21,
+                    "occupation": 0,
+                    "rule": "SCM_SCO",
+                    "runs": 3,
+                    "timeouts": 3
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "PRP_SPO1",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "PRP_DOM",
+                    "runs": 1,
+                    "timeouts": 1
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "PRP_RNG",
+                    "runs": 2,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 7,
+                    "occupation": 0,
+                    "rule": "SCM_DOM1",
+                    "runs": 2,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 11,
+                    "occupation": 0,
+                    "rule": "SCM_RNG1",
+                    "runs": 2,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_DOM2",
+                    "runs": 2,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "SCM_RNG2",
+                    "runs": 2,
+                    "timeouts": 2
+                },
+                {
+                    "inferred": 0,
+                    "occupation": 0,
+                    "rule": "CAX_SCO",
+                    "runs": 2,
+                    "timeouts": 2
+                }
+            ],
+            "currentInfered": 40,
+            "currentInput": 293,
+            "lastRun": [
+                "PRP_RNG",
+                "SCM_RNG1",
+                "SCM_DOM2",
+                "PRP_DOM",
+                "PRP_SPO1"
+            ],
+            "runningRules": 0,
+            "waitingRules": 0
+        }
+    ],
+    "timeout": 50,
+    "tips": {
+        "CAX_SCO": "<tr><th>CAX_SCO</th><td>c1 subClassOf c2<br> x type c1 </td><td> x type c2</td></tr>",
+        "PRP_DOM": "<tr><th>PRP_DOM</th><td>p domain c<br> x p y </td><td> x type c</td></tr>",
+        "PRP_RNG": "<tr><th>PRP_RNG</th><td>p range c<br> x p y </td><td> y type c</td></tr>",
+        "PRP_SPO1": "<tr><th>PRP_SPO1</th><td>p1 subPropertyOf p2<br> x p1 y </td><td> x p2 y</td></tr>",
+        "SCM_DOM1": "<tr><th>SCM_DOM1</th><td>p domain c1<br> c1 subClassOf c2 </td><td> p domain c2</td></tr>",
+        "SCM_DOM2": "<tr><th>SCM_DOM2</th><td>p2 domain c<br> p1 subPropertyOf p2 </td><td> p1 domain c</td></tr>",
+        "SCM_RNG1": "<tr><th>SCM_RNG1</th><td>p range c1<br> c1 subClassOf c2 </td><td> p range c2</td></tr>",
+        "SCM_RNG2": "<tr><th>SCM_RNG2</th><td>p2 range c<br> p1 subPropertyOf p2 </td><td> p1 range c</td></tr>",
+        "SCM_SCO": "<tr><th>SCM_SCO</th><td>c1 subClassOf c2<br> c2 subClassOf c3 </td><td> c1 subClassOf c3</td></tr>",
+        "SCM_SPO": "<tr><th>SCM_SPO</th><td>p3 subPropertyOf p2<br> p2 subPropertyOf p3 </td><td> p3 subPropertyOf p3</td></tr>"
+    },
+    "totalInfered": 40,
+    "totalInput": 293
+}

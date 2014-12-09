@@ -1,0 +1,685 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=2">
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link href="css/simple-slider.css" rel="stylesheet" type="text/css">
+
+	<title>Slider Demonstration</title>
+	<meta charset="utf-8">
+
+	<style>
+		.box {
+			padding: 10px 10px 0 10px;
+		}
+		.arrow {
+			padding-top: 140px;
+			opacity: 0.5;
+		}
+		.small-arrow {
+			padding-top: 0;
+			-webkit-transform:rotate(90deg);
+			transform:rotate(90deg);
+		}
+		.chart {
+			padding-top: 30px;
+		}
+		.container-full {
+			margin: 0 auto;
+			width: 90%;
+		}
+		.progress {
+			height: 20px;
+		}
+		.progress-small {
+			margin-top: 4px;
+			margin-bottom: 0px;
+			height: 5px;
+			/*width: 250px;*/
+		}
+		td, th {
+			text-align: left;
+			padding: 3px 10px 5px 5px;
+		}
+		.badge {
+			width: 50px;
+		}
+		.rule-badge {
+			width: 80px;
+		}
+		.buttons {
+			padding-bottom: 20px;			
+		}
+		.player {
+			padding-top: 20px;
+		}
+		.label-as-badge {
+			border-radius: 10em;
+			width: 100px;
+		}
+		.logo{
+			height: 70px;
+			margin-right: 10px;
+		}
+		#footer {
+			border-top: 1px solid #ccc;
+			margin-top: 20px;
+		}
+		.legend{
+			margin-top: 50px;
+			border-top: 1px solid #ccc;
+		}
+		#results_charts{
+			display: none;
+		}
+	</style>
+</head>
+
+
+
+
+<body>
+
+
+	<a href="https://github.com/JulesChevalier/slider" target="_blank"><img style="position: absolute; top: 0; left: 0; border: 0; width: 100px; height: 100px;" src="imgs/forkme.png" alt="Fork me on GitHub"></a>
+
+	<div class="page-header" align="center">
+		<h1>Slider Demonstration</h1>
+	</div>
+
+
+
+	<div class="container-full">
+
+		<div class="row">
+			<div class="col-md-3">
+				<h2 align="center">Ontology</h2>
+			</div>
+			<div class="col-md-4 col-md-offset-1">
+				<h2 align="center">Inference</h2>
+			</div>
+			<div class="col-md-3 col-md-offset-1">
+				<h2 align="center">Results</h2>
+			</div>
+		</div>
+
+
+		<div class="row">
+
+			<!-- Ontology Informations -->
+			<div class="col-md-3 box">
+
+				<div class="row">
+					<div class="col-md-6">
+						<label for="ontology-form">File</label>
+						<select class="form-control" id="ontology-form"></select>
+						<label for="fragment-form">Fragment</label>
+						<select class="form-control" id="fragment-form"></select>
+					</div>
+
+					<div class="col-md-6">
+						<label for="buffersize-form">Buffer size</label>
+						<select class="form-control" id="buffersize-form"></select>
+						<label for="timeout-form">Timeout (ms)</label>
+						<select class="form-control" id="timeout-form"></select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 player">
+						<div class="panel panel-default infos">
+							<div class="panel-heading">Ontology informations</div>
+							<p id="ontology-info" style="margin-left: 20px"></p>
+							<div class="panel panel-default">
+								<div class="panel-heading" id="panel-rules">Rules</div>
+								<p id="rules-info" align="center"></p>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" id="panel-graph">Rules Dependency Graph</div>
+								<p id="dep-graph" align="center"></p>
+							</div>
+						</div>
+
+						<div class="legend">
+							<h3 align="center" style='margin-bottom: 5px; margin-top: 5px;'>Legend</h3>
+
+							<span>Buffers</span>
+							<div class='progress' style='height: 4px; margin-bottom: 5px'><div class='progress-bar' style='width: 50%;'></div></div>
+							<span>Input Triples</span>
+							<div class='progress' style='height: 7px; margin-bottom: 5px'><div class='progress-bar progress-bar-success progress-vertical' style='width: 75%;'></div></div>
+							<span>Inferred Triples</span>
+							<div class='progress' style='height: 7px; margin-bottom: 5px'><div class='progress-bar progress-bar-warning progress-vertical' style='width: 25%;'></div></div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+
+			<!-- Arrow -->
+			<div class="col-md-1 box" align="center">
+				<img class="arrow" src="imgs/right.svg" width="50%"></img>
+			</div>
+
+			<!-- Inference -->
+			<div class="col-md-4 player">
+				<div class="row" align="center">
+					<div class="buttons">
+						<button type="button" class="btn btn-info btn-lg" id="PlayBtn"><span class="glyphicon glyphicon-play"/></button>
+						<button type="button" class="btn btn-info btn-lg" id="StopBtn"><span class="glyphicon glyphicon-stop"></span></button>
+						<button type="button" class="btn btn-info btn-lg" id="BackBtn"><span class="glyphicon glyphicon-step-backward"></span></button>
+						<button type="button" class="btn btn-info btn-lg" id="ForwBtn"><span class="glyphicon glyphicon-step-forward"></span></button>
+						<button type="button" class="btn btn-info btn-lg" id="SlowDownBtn"><span class="glyphicon glyphicon-backward"></span></button>
+						<button type="button" class="btn btn-info btn-lg" id="SpeedUpBtn"><span class="glyphicon glyphicon-forward"></span></button>
+					</div>
+					<input class="player-slider" type="text" data-slider="true" data-slider-highlight="true" id="timeslide">
+					<div id="speed">|</div>
+				</div>
+				<p id="screenshots"></p>
+			</div>
+
+			<!-- Arrow -->
+			<div class="col-md-1 box" align="center">
+				<img class="arrow "src="imgs/right.svg" width="50%"></img>
+			</div>
+
+			<!-- Results -->
+			<div class="col-md-3 box" id="comingsoon" align="center" style="margin-top: 80px">
+				<h4>Results will be available at the end of the inference</h4>
+			</div>
+			<div class="col-md-3 box" id="results_charts">
+
+				<div class="row infos">
+
+					<div class="col-md-6 chart" align="center">
+						<canvas id="inputoutputChart" height="150" width="150" style="width: 150px; height: 150px;"></canvas><br>
+						<label>Input vs. Inferred</label>
+					</div>
+
+					<div class="col-md-6 chart" align="center">
+						<canvas id="triplesChart" height="150" width="150" style="width: 150px; height: 150px;"></canvas><br>
+						<label>Rules Distribution</label>
+					</div>
+
+				</div>
+
+				<div class="chart" align="center">
+					<canvas id="runsChart"></canvas><br>
+					<label>Runs by Rules</label>
+				</div>
+
+				<div class="panel panel-default" style="margin-top: 20px;">
+					<div class="panel-heading">Inference informations</div>
+					<p id="inference-info"  style="margin-left: 20px"></p>
+				</div>
+			</div>
+
+
+		</div>
+
+		<div id="footer">
+			<div class="row" style="margin-top: 5px; font-size: 12px">
+
+				<div class="col-md-8" align="left">
+					<a href="http://portail.univ-st-etienne.fr/" target="_blank"><img src="imgs/ujm.jpg" class="logo"></a>
+					<img src="imgs/lt2c.jpg" class="logo">
+					<a href="http://www.opencloudware.org/bin/view/Main/" target="_blank"><img src="imgs/ocw.png" class="logo"></a>
+				</div>
+
+				<div class="col-md-2">
+					<a href="https://github.com/JulesChevalier/slider" target="_blank">Slider</a> developed by
+					<ul>
+						<li><a href="http://satin-ppl.telecom-st-etienne.fr/jchevalier/" target="_blank">Jules Chevalier</a></li>
+						<li><a href="http://satin-ppl.telecom-st-etienne.fr/jsubercaze/" target="_blank">Julien Subercaze</a></li>
+						<li><a href="http://satin-ppl.telecom-st-etienne.fr/cgravier/" target="_blank">Christophe Gravier</a></li>
+						<li><a href="http://satin-ppl.telecom-st-etienne.fr/flaforest/" target="_blank">Fr&eacute;d&eacute;rique Laforest</a></li>
+					</ul>
+					<!-- <a href="http://satin-ppl.telecom-st-etienne.fr" target="_blank">Satin Team</a>, LT2C, <a href="http://portail.univ-st-etienne.fr/" target="_blank">UJM</a> -->
+				</div>
+
+				<div class="col-md-2">
+					This work was funded by the French Fonds national pour la Société Numérique(FSN), and supported by Pôles Minalogic, Systematic and SCS. It is part of the <a href="http://www.opencloudware.org/bin/view/Main/" target="_blank">Open Cloudware</a> project.
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+
+
+
+
+
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="js/Chart.js"></script>
+	<script src="js/simple-slider.js"></script>
+
+	<script>
+
+		var i=0, timer, speed=3, play=false, stop=true, json, triplesChart, runsChart, inputoutputChart;
+		var timeouts = [500,100,50,10,5,1];
+		var xspeeds = ["<<<","<<","<","|",">",">>"];
+		var colors = ["#FFB752", "#F5AF4E", "#E8A64A", "#DB9D46", "#CF9442", "#C28B3E", "#B5823A", "#A87936", "#9C6F32", "#8F662E"];
+
+
+		$(document).ready(function() {
+
+			$("#ontology-form").removeAttr('disabled');
+			$("#fragment-form").removeAttr('disabled');
+			$("#buffersize-form").removeAttr('disabled');
+			$("#timeout-form").removeAttr('disabled');
+			$("#SlowDownBtn").removeAttr('disabled');
+			$("#SpeedUpBtn").removeAttr('disabled');
+
+			initFormsOptions();
+
+			updateSpeed();
+
+			updateJson();
+		});
+
+		/***************************************************/
+
+
+		$( "#ontology-form" ).change(function() {
+			i=0;
+			updateJson();
+		});
+		$( "#fragment-form" ).change(function() {
+			i=0;
+			updateJson();
+		});
+		$( "#buffersize-form" ).change(function() {
+			i=0;
+			updateJson();
+		});
+		$( "#timeout-form" ).change(function() {
+			i=0;
+			updateJson();
+		});
+
+		$('#PlayBtn').click(function(){
+
+			if(play){
+				play=false;
+				$('#PlayBtn').html("<span class='glyphicon glyphicon-play'></span>");
+				clearInterval(timer);
+			}else{
+
+				if(i>=json.screenshots.length){
+					i=0;
+				}
+				$("#ontology-form").prop('disabled', true);
+				$("#fragment-form").prop('disabled', true);
+				$("#buffersize-form").prop('disabled', true);
+				$("#timeout-form").prop('disabled', true);
+				play=true;
+				$('#PlayBtn').html("<span class='glyphicon glyphicon-pause'></span>");
+				setTimer(timeouts[speed]);
+			}
+		});
+
+		$('#StopBtn').click(function(){
+			speed=3;
+			$("#SpeedUpBtn").removeAttr('disabled');
+			$("#SlowDownBtn").removeAttr('disabled');
+			$("#ontology-form").removeAttr('disabled');
+			$("#fragment-form").removeAttr('disabled');
+			$("#buffersize-form").removeAttr('disabled');
+			$("#timeout-form").removeAttr('disabled');
+			if(play){
+				play=false;
+				clearInterval(timer);
+				updateSpeed();
+				$('#PlayBtn').html("<span class='glyphicon glyphicon-play'></span>");
+			}
+			i=0;
+			updateAll();
+		});
+
+		$('#BackBtn').click(function(){
+			if(play){
+				play=false;
+				clearInterval(timer);
+				$('#PlayBtn').html("<span class='glyphicon glyphicon-play'></span>");
+			}
+			i--;
+			updateAll();
+		});
+
+		$('#ForwBtn').click(function(){
+			if(play){
+				play=false;
+				clearInterval(timer);
+				$('#PlayBtn').html("<span class='glyphicon glyphicon-play'></span>");
+			}
+			i++;
+			updateAll();
+		});
+
+		$('#SpeedUpBtn').click(function(){
+			$("#SlowDownBtn").removeAttr('disabled');
+			if(speed<timeouts.length-1){
+				speed++;
+				updateSpeed();
+				if(play){
+					setTimer(timeouts[speed]);
+				}
+			}
+		});
+
+		$('#SlowDownBtn').click(function(){
+			$("#SpeedUpBtn").removeAttr('disabled');
+			if(speed>0){
+				speed--;
+				updateSpeed();
+				if(play){
+					setTimer(timeouts[speed]);
+				}
+			}
+		});
+
+		$("#timeslide").bind("slider:changed", function (event, data) {
+			if(play){
+				play=false;
+				clearInterval(timer);
+				$('#PlayBtn').html("<span class='glyphicon glyphicon-play'></span>");
+			}
+			i=Math.ceil(data.value*json.screenshots.length);
+			updateAll();
+		});
+
+		$("#panel-rules").click(function(){
+			$("#rules-info").animate({
+				height:'toggle'
+			});
+		});
+
+		$("#panel-graph").click(function(){
+			$("#dep-graph").animate({
+				height:'toggle'
+			});
+		});
+
+
+
+		/***************************************************/
+
+		function initFormsOptions(){
+
+			var ontologies = {
+				dbpedia_3_8      : 'jsons/dbpedia_3.8.nt',
+				geopolitical_10k : 'jsons/geopolitical_10k.nt',
+				sweetAll         : 'jsons/sweetAll.nt',
+				univ_bench       : 'jsons/univ-bench.nt',
+				wine             : 'jsons/wine.nt',
+				separator        : '',
+				dataset_100k     : 'jsons/dataset_100k.nt',
+				dataset_200k     : 'jsons/dataset_200k.nt',
+				separator2       : '',
+				subClassOf10     : 'jsons/subClassOf10.nt',
+				subClassOf20     : 'jsons/subClassOf20.nt',
+				subClassOf50     : 'jsons/subClassOf50.nt',
+				subClassOf100    : 'jsons/subClassOf100.nt'
+			};
+
+			$.each(ontologies, function(val, text){
+				if(text==''){
+					$("#ontology-form").append($('<option disabled></option>').val('').html(''));
+				}else{
+					$("#ontology-form").append($('<option></option>').val(text).html(val));
+				}
+			});
+
+			var fragments = {
+				ρdf  : 'rhodf',
+				RDFS : 'rdfs'
+			};
+
+			$.each(fragments, function(val, text){
+				$("#fragment-form").append($('<option></option>').val(text).html(val));
+			});
+
+			var bufferSizes = {
+				100   : '100',
+				1000  : '1000',
+				10000 : '10000'
+			};
+
+			$.each(bufferSizes, function(val, text){
+				$("#buffersize-form").append($('<option></option>').val(text).html(val));
+			});
+
+			var timeouts = {
+				5    : '5',
+				10   : '10',
+				50   : '50',
+				100  : '100'
+			};
+
+			$.each(timeouts, function(val, text){
+				$("#timeout-form").append($('<option></option>').val(text).html(val));
+			});
+
+		}
+
+		function updateSpeed(){
+			$("#speed").html(xspeeds[speed]);
+
+			if(speed==timeouts.length-1){
+				$("#SpeedUpBtn").attr('disabled',true);			
+			}
+
+			if(speed==0){
+				$("#SlowDownBtn").attr('disabled',true);			
+			}
+		}
+
+		function setTimer(timeout){
+			clearInterval(timer);
+			timer=setInterval(function(){
+				i++;
+				updateAll();
+			},timeout);
+		}
+
+		function updateJson(){
+			$(".infos").hide();
+			var file = $("#ontology-form").val()+"_"+$("#fragment-form").val()+"_"+$("#buffersize-form").val()+"_"+$("#timeout-form").val()+".json";
+			$.getJSON(file, function(data) {
+				json=data;
+				$(".infos").show();
+				initInfos();
+				updateAll();
+			});
+		}
+
+		function updateAll(){
+			$("#timeslide").simpleSlider("setValue", i/json.screenshots.length);
+			if(i>=json.screenshots.length){
+				play=false;
+				clearInterval(timer);
+				$('#PlayBtn').html("<span class='glyphicon glyphicon-play'></span>");
+				$("#ontology-form").removeAttr('disabled');
+				$("#SlowDownBtn").removeAttr('disabled');
+				$("#ontology-form").removeAttr('disabled');
+				$("#fragment-form").removeAttr('disabled');
+				$("#buffersize-form").removeAttr('disabled');
+				$("#timeout-form").removeAttr('disabled');
+				initCharts();
+			}else{
+				$("#results_charts").hide();
+				$("#comingsoon").show();
+
+				var total = json.totalInput+json.totalInfered;
+				var input = json.screenshots[i].currentInput * 100 / total;
+				var input2 = 100-json.screenshots[i].currentInput * 100 / json.totalInput;
+				var infered = json.screenshots[i].currentInfered * 100 / total;
+				$('#screenshots').html("<h3 align='center'>Input</h3><div class='progress' id='inputprogress'><div class='progress-bar progress-bar-success' style='width: "+input2+"%'></div></div>");
+
+				// $('#screenshots').append("<div align='center'><img class='arrow small-arrow' src='imgs/right.svg' width='5%' align='center'></img></div>");
+
+				$('#screenshots').append("<h3>Buffers</h3>");
+				var htmlScreen="<table class='table table-condensed'>";
+				htmlScreen+="<tr><th>Rule</th><th>Buffer</th><th>Full</th><th>Timer</th><th>Inferred</th></tr>";
+				if(json.screenshots[i].buffers){
+					for(var j=0; j<json.screenshots[i].buffers.length; j++){
+						var buffer = json.screenshots[i].buffers[j];
+						if(buffer){
+							var step = buffer.occupation*100/json.bufferSize;
+							var isRun = (buffer.runs>0)?"alert-success":"alert-danger";
+							var isInf = (buffer.inferred>0)?"alert-success":"alert-danger";
+							var isTim = (buffer.timeouts>0)?((buffer.tic)?"alert-warning":"alert-success"):"alert-danger";
+							htmlScreen+="<tr><td style='padding-top: 0px; padding-bottom: 0px;'><label class='progress-label' id='label-"+buffer.rule+"'>"+buffer.rule+"</label></td><td align='center'><div class='progress progress-small' style='width: +"+($("#inputprogress").width()*40/100)+"px'><div class='progress-bar' style='width: "+step+"%;'></div></div></td><td style='padding-top: 0px; padding-bottom: 0px;'><span class='badge "+isRun+"'>"+(buffer.runs-buffer.timeouts)+"</span></td><td style='padding-top: 0px; padding-bottom: 0px;'><span class='badge "+isTim+"'>"+buffer.timeouts+"</span></td><td style='padding-top: 0px; padding-bottom: 0px;'><span class='badge "+isInf+"'>"+buffer.inferred+"</span></td></tr>";
+							$("#label-"+buffer.rule).hide();
+						}
+					}
+				}
+				htmlScreen+="</table>";
+				$('#screenshots').append(htmlScreen);
+
+				htmlScreen="<table class='table table-condensed' align='center'><tr><th>Thread Pool</th>";
+
+				for(var j=0; j<json.screenshots[i].lastRun.length; j++){
+					htmlScreen+="<td><span class='badge alert-info rule-badge'>"+json.screenshots[i].lastRun[j]+"</span></td>"
+				}
+				htmlScreen+="</tr></table>";
+				$('#screenshots').append(htmlScreen);
+
+
+				// $('#screenshots').append("<div align='center'><img class='arrow small-arrow' src='imgs/right.svg' width='5%' align='center'></img></div>");
+
+				$('#screenshots').append("<h3 align='center'>Triple Store</h3><div class='progress'><div class='progress-bar progress-bar-success' style='width: "+input+"%'></div><div class='progress-bar progress-bar-warning' style='width: "+infered+"%'></div></div>");
+
+			}
+		}
+
+		function initInfos(){
+
+			var runsum = 0;
+			for (var i = json.runs.length - 1; i >= 0; i--) {
+				runsum+=json.runs[i].runs;
+			};
+
+			$("#rules-info").animate({
+				height:'hide'
+			},0);
+
+			var ontologylink="http://datasets-satin.telecom-st-etienne.fr/jchevalier/slider/"+$("#ontology-form").val().replace("jsons/","").replace("\.nt",".zip");
+			$('#ontology-info').html(
+				' <tr> <th> Ontology </th> <td align="right">'+ '<a href="'+ontologylink+'">'+json.file+'</a>'+ '</td> </tr> '+
+				' <tr> <th> Size     </th> <td align="right">'+ json.totalInput                               + '</td> </tr> '+
+				' <tr> <th> Rules    </th> <td align="right">'+ json.runs.length                              + '</td> </tr> '
+				);
+			$('#inference-info').html(
+
+				' <tr> <th> Inferred         </th> <td align="right">'+ json.totalInfered                     + '</td> </tr> '+
+				' <tr> <th> Total            </th> <td align="right">'+ (json.totalInfered+json.totalInput)   + '</td> </tr> '+
+				' <tr> <th> Runs             </th> <td align="right">'+ runsum                                + '</td> </tr> '+
+				' <tr> <th> Time             </th> <td align="right">'+ json.screenshots.length + "(in steps)"+ '</td> </tr> '
+				);
+
+			var ontologyinflink="http://datasets-satin.telecom-st-etienne.fr/jchevalier/all/"+$("#ontology-form").val();
+			$('#rules-info').html('');
+			$('#rules-info').append('<tr><th>Name</th><th>Input</th><th>Output</th></tr>');
+			for(rule in json.tips){
+				$('#rules-info').append(json.tips[rule]);
+			}
+
+			$('#dep-graph').html("<a href='imgs/"+$('#fragment-form').val()+"_graph.svg' target='_blank'><img src='imgs/"+$('#fragment-form').val()+"_graph.svg' width='85%' style='margin-top: 5%; margin-bottom: 5%'></img></a>");
+
+			$("#dep-graph").animate({
+				height:'hide'
+			},0);
+		}
+
+		function initCharts(){
+
+
+			if(runsChart)
+				runsChart.destroy();
+			if(triplesChart)
+				triplesChart.destroy();
+			if(inputoutputChart)
+				inputoutputChart.destroy();
+
+			$("#results_charts").show();
+			$("#comingsoon").hide();
+
+
+
+			// Chart.defaults.global.responsive=true;
+			Chart.defaults.global.scaleShowGridLines=false;
+			// Chart.defaults.global.animation=false;
+
+			runsCtx = $("#runsChart").get(0).getContext("2d");
+			runsData = {
+				labels: [],
+				datasets: [
+				{
+					label: "Runs by Rules",
+					fillColor: "rgba(151,187,205,0.5)",
+					strokeColor: "rgba(151,187,205,0.8)",
+					highlightFill: "rgba(151,187,205,0.75)",
+					highlightStroke: "rgba(151,187,205,1)",
+					data: []
+				}
+				]
+			};
+
+			for(var j=0; j<json.runs.length; j++){
+				var buffer = json.runs[j];
+				if(buffer.runs){
+					runsData.labels[j]=buffer.rule;
+					runsData.datasets[0].data[j]=buffer.runs;
+				}else{
+					runsData.labels[j]=buffer.rule;
+					runsData.datasets[0].data[j]=0;
+				}
+			}
+			runsChart = new Chart(runsCtx).Bar(runsData);
+
+			Chart.defaults.global.animation=true;
+			inputoutputCtx = $("#inputoutputChart").get(0).getContext("2d");
+			inputoutputData = [
+			{
+				value: json.totalInput,
+				color:"#5CB85C",
+				label: "Input"
+			},
+			{
+				value: json.totalInfered,
+				color: "#F0AD4E",
+				label: "Inferred"
+			}
+			];
+			inputoutputChart = new Chart(inputoutputCtx).Doughnut(inputoutputData);
+
+			Chart.defaults.global.multiTooltipTemplate="<%%>";
+
+			triplesCtx = $("#triplesChart").get(0).getContext("2d");
+			triplesData = [];
+			k=0;
+			for(var j=0; j<json.runs.length; j++){
+				var buffer = json.runs[j];
+				if(buffer.inferred){
+					inferred = buffer.inferred;
+					triplesData[k++]={
+						value: inferred,
+						color: colors[k],
+						label: buffer.rule
+					};
+				}
+			}
+			triplesChart = new Chart(triplesCtx).Doughnut(triplesData);
+
+		}
+
+	</script>
+</body>
+</html>
