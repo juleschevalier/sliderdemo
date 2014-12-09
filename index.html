@@ -186,7 +186,7 @@
 
 			<!-- Results -->
 			<div class="col-md-3 box" id="comingsoon" align="center" style="margin-top: 80px">
-				<h4>Results will be available at the end of the inference</h4>
+				<h4>Results available at the end of the inference</h4>
 			</div>
 			<div class="col-md-3 box" id="results_charts">
 
@@ -532,7 +532,7 @@
 						var buffer = json.screenshots[i].buffers[j];
 						if(buffer){
 							var step = buffer.occupation*100/json.bufferSize;
-							var isRun = (buffer.runs>0)?"alert-success":"alert-danger";
+							var isRun = (buffer.runs-buffer.timeouts>0)?"alert-success":"alert-danger";
 							var isInf = (buffer.inferred>0)?"alert-success":"alert-danger";
 							var isTim = (buffer.timeouts>0)?((buffer.tic)?"alert-warning":"alert-success"):"alert-danger";
 							htmlScreen+="<tr><td style='padding-top: 0px; padding-bottom: 0px;'><label class='progress-label' id='label-"+buffer.rule+"'>"+buffer.rule+"</label></td><td align='center'><div class='progress progress-small' style='width: +"+($("#inputprogress").width()*40/100)+"px'><div class='progress-bar' style='width: "+step+"%;'></div></div></td><td style='padding-top: 0px; padding-bottom: 0px;'><span class='badge "+isRun+"'>"+(buffer.runs-buffer.timeouts)+"</span></td><td style='padding-top: 0px; padding-bottom: 0px;'><span class='badge "+isTim+"'>"+buffer.timeouts+"</span></td><td style='padding-top: 0px; padding-bottom: 0px;'><span class='badge "+isInf+"'>"+buffer.inferred+"</span></td></tr>";
